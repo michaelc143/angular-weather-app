@@ -14,4 +14,11 @@ export class WeatherDashboardComponent {
       ]
     }
     stringsArray: string[] = [];
+    ifStatement =  'this is one of the ifs';
+    flipIfStatement() {
+      if(this.ifStatement = 'this is one of the ifs')
+        this.ifStatement = 'this is the other ifs';
+      else if(this.ifStatement = 'this is the other ifs')
+        this.ifStatement = 'this is one of the ifs';
+    }
 }
