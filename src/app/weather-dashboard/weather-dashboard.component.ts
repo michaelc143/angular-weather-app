@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./weather-dashboard.component.scss']
 })
 export class WeatherDashboardComponent {
-
+    constructor() {
+      this.stringsArray = [
+        'this is one option',
+        'this is another',
+        'this is made with the ngFor loop'
+      ]
+    }
+    stringsArray: string[] = [];
 }
